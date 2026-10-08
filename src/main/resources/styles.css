@@ -1,0 +1,160 @@
+/* ===== Base ===== */
+.root {
+    -fx-background-color: white;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Header ===== */
+.header-bar {
+    -fx-background-color: #ff7f11;
+    -fx-padding: 12 20;
+}
+
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* ===== Media display area ===== */
+.media-pane {
+    -fx-background-color: black;
+    -fx-border-color: #ff7f11;
+    -fx-border-width: 3;
+}
+
+/* ===== Buttons ===== */
+.control-button {
+    -fx-background-color: #ff7f11;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 18;
+    -fx-cursor: hand;
+}
+
+.control-button:hover {
+    -fx-background-color: #e56f00;
+}
+
+.control-button:pressed,
+.control-button:armed {
+    -fx-background-color: #cc6300;
+}
+
+.small-button {
+    -fx-padding: 4 10;
+    -fx-font-size: 11px;
+}
+
+/* ===== Bottom control bar ===== */
+.bottom-bar {
+    -fx-background-color: #fff3e6;
+    -fx-border-color: #ff7f11;
+    -fx-border-width: 2 0 0 0;
+}
+
+.status-label {
+    -fx-text-fill: #cc6300;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.vol-label {
+    -fx-text-fill: #cc6300;
+    -fx-font-weight: bold;
+}
+
+/* ===== Timeline / progress ===== */
+.progress-row {
+    -fx-padding: 10 20 0 20;
+}
+
+.time-label {
+    -fx-text-fill: #cc6300;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* ===== Sliders (shared by volume + timeline) ===== */
+.slider .track {
+    -fx-background-color: #ffd9b3;
+}
+
+.slider .thumb {
+    -fx-background-color: #ff7f11;
+}
+
+/* ===== Playlist panel ===== */
+.playlist-box {
+    -fx-background-color: white;
+    -fx-border-color: #ff7f11;
+    -fx-border-width: 0 0 0 2;
+}
+
+.playlist-label {
+    -fx-text-fill: #ff7f11;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #ffcf9e;
+    -fx-border-width: 1;
+}
+
+.list-cell {
+    -fx-text-fill: #333333;
+    -fx-padding: 8;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #ff7f11;
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #ffe6cc;
+}
+
+/* ===== Playlist selector (ComboBox) ===== */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ff7f11;
+    -fx-border-width: 1;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #333333;
+    -fx-padding: 6;
+}
+
+.combo-box-popup .list-view {
+    -fx-border-color: #ff7f11;
+}
+
+/* ===== Tabs (Playlist / Queue) ===== */
+.tab-pane .tab-header-background {
+    -fx-background-color: #fff3e6;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #ffd9b3;
+    -fx-background-radius: 6 6 0 0;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #ff7f11;
+}
+
+.tab-pane .tab .tab-label {
+    -fx-text-fill: #cc6300;
+    -fx-font-weight: bold;
+}
+
+.tab-pane .tab:selected .tab-label {
+    -fx-text-fill: white;
+}
